@@ -1,5 +1,12 @@
 # Estate Agent Web Application
 
+📋 Project Overview
+University: University of Westminster
+School: Electronics and Computer Science
+Module: 5COSC026W Advanced Client-Side Web Development (2025/26)
+Module Leader: Ebad Majeed
+Weighting: 60%
+Due Date: 05th January 2026
 
 **📁 GitHub Repository**: https://github.com/Pasandul-pro/estate-agent-app
 
@@ -31,6 +38,7 @@ A modern, responsive single-page application (SPA) for searching and browsing pr
 ## Installation
 
 1. Install dependencies:
+
 ```bash
 npm install
 ```
@@ -43,17 +51,21 @@ npm install
 ## Running the Application
 
 ### Development Mode
+
 ```bash
 npm run dev
 ```
+
 Visit `http://localhost:5173` in your browser.
 
 ### Production Build
+
 ```bash
 npm run build
 ```
 
 ### Preview Production Build
+
 ```bash
 npm run preview
 ```
@@ -65,12 +77,12 @@ npm test
 ```
 
 The test suite includes 10 comprehensive tests covering:
+
 - Property filtering by type, price, bedrooms, postcode
 - Multiple criteria filtering
 - Price formatting
 - Postcode extraction
 - Edge cases
-
 
 ## Project Structure
 
@@ -102,11 +114,13 @@ estate-agent-app/
 ## Key Features Implementation
 
 ### Search Functionality
+
 - Supports searching by 1-5 criteria simultaneously
 - Real-time filtering of properties
 - Case-insensitive postcode matching
 
 ### Favourites System
+
 - Drag and drop properties to favourites list
 - Click favourite button on property cards
 - Prevent duplicate entries
@@ -114,17 +128,20 @@ estate-agent-app/
 - Clear all favourites option
 
 ### Responsive Design
+
 - Mobile-first approach
 - Breakpoints at 768px (mobile) and 1024px (tablet)
 - Flexbox and Grid layouts
 - Hand-written media queries
 
 ### Security
+
 - Content Security Policy (CSP) headers in Vite config
 - HTML encoding for user inputs
 - No inline scripts or styles
 
 ### Code Quality
+
 - Clean, well-commented code
 - Consistent formatting and indentation
 - Modular component structure
@@ -132,22 +149,22 @@ estate-agent-app/
 
 ## Assessment Criteria Coverage
 
-1. JSON Data (7 properties with variety)  
-2. React UI Widgets (Enhanced form elements)  
-3. Search Functionality (Multi-criteria search)  
-4. Results Display (Attractive property cards)  
-5. Property Page Gallery (6-8 images with navigation)  
-6. Property Page Tabs (Description, floor plan, map)  
-7. Add to Favourites (Drag & drop + button)  
-8. Remove/Clear Favourites (Multiple methods)  
-9. Display Favourites (Sidebar on search page)  
-10. Responsive Design (Two layouts with media queries)  
-11. Aesthetics (Professional, cohesive design)  
-12. Security (CSP + HTML encoding)  
-13. Code Quality (Well-structured and documented)  
-14. GitHub & Commits (Version control ready)  
-15. Deployment (Vite build for static hosting)  
-16. JEST Testing (10 meaningful tests)  
+1. JSON Data (7 properties with variety)
+2. React UI Widgets (Enhanced form elements)
+3. Search Functionality (Multi-criteria search)
+4. Results Display (Attractive property cards)
+5. Property Page Gallery (6-8 images with navigation)
+6. Property Page Tabs (Description, floor plan, map)
+7. Add to Favourites (Drag & drop + button)
+8. Remove/Clear Favourites (Multiple methods)
+9. Display Favourites (Sidebar on search page)
+10. Responsive Design (Two layouts with media queries)
+11. Aesthetics (Professional, cohesive design)
+12. Security (CSP + HTML encoding)
+13. Code Quality (Well-structured and documented)
+14. GitHub & Commits (Version control ready)
+15. Deployment (Vite build for static hosting)
+16. JEST Testing (10 meaningful tests)
 
 ## Browser Support
 
@@ -162,11 +179,10 @@ This project is created for educational purposes as part of the 5COSC026W Advanc
 
 ## Author
 
-[Omisha Pasandul Wickramaarachchi] 
-w2153411 
+[Omisha Pasandul Wickramaarachchi]
+w2153411
 Undergraduate
-University of Westminster  
-
+University of Westminster
 
 ## Submission Checklist
 
