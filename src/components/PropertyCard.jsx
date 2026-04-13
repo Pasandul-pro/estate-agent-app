@@ -57,4 +57,4 @@ const PropertyCard = ({ property, onAddToFavourites }) => {
   )
 }
 
-export default PropertyCard
+export default PropertyCard;

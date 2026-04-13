@@ -11,8 +11,16 @@ import './App.css'
 function App() {
   const [properties] = useState(propertiesData.properties)
   const [filteredProperties, setFilteredProperties] = useState(propertiesData.properties)
-  const [favourites, setFavourites] = useState([])
+  const [favourites, setFavourites] = useState(() => {
+    const saved = localStorage.getItem('property-favourites')
+    return saved ? JSON.parse(saved) : []
+  })
   const [searchCriteria, setSearchCriteria] = useState({})
+
+  // Persist favourites to localStorage whenever they change
+  useEffect(() => {
+    localStorage.setItem('property-favourites', JSON.stringify(favourites))
+  }, [favourites])
 
   // Handle search functionality
   const handleSearch = (criteria) => {

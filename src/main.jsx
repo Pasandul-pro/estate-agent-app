@@ -9,6 +9,7 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter
+      basename="/estate-agent-app"
       future={{
         v7_startTransition: true,
         v7_relativeSplatPath: true
@@ -18,5 +19,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <App />
       </DndProvider>
     </BrowserRouter>
-  </React.StrictMode>,
+  </React.StrictMode>
 )

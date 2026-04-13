@@ -106,4 +106,4 @@ const FavouritesList = ({ favourites, onRemove, onClear, onAddToFavourites }) =>
   )
 }
 
-export default FavouritesList
+export default FavouritesList;
