@@ -1,5 +1,9 @@
 {
   "name": "estate-agent-app",
+  "homepage": "https://Pasandul-pro.github.io/estate-agent-app/",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "basename": "/estate-agent-app/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
